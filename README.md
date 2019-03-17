@@ -8,5 +8,5 @@ Project Overview :
 1. All the text files are cleaned by removing some of the headers , removing the stop words , removing the punctuations ,        removing the digits and then a dictionary of all the words as the key and their frequencies as the value is created.
 2. Then this dictionary is sorted in decreasing order and top K(here 4000) frequency words are chosen to be the features of      our training as well as testing dataframe.
 3. Finally we create the fit function and the predict function for implementing Naive Bayes. 
-4. An accuracy of 75-80% is achieved by both self implementation and inbuilt Multinomial Naive Bayes.  
+4. An accuracy of 75-80% is achieved in case of 20_newsgroups and 65-70% in case of mini_newsgroups by both self                  implementation and inbuilt Multinomial Naive Bayes.  
 
